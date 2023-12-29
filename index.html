@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form in HTML, CSS & JS with varification</title>
+    <link rel="shortcut icon" href="./image/christmasBall.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="panel d-flex justify-content-center">
+       <div class="container mt-5 shadow rounded rounded-2">
+           <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="cover">
+                    <div class="content-cover text-white">
+                       <h4><i class="ps-4 pt-3 fas fa-drafting-compass"></i> Ready Co.</h4>
+                       <div class="home-img mt-4 d-flex justify-content-center">
+                       <img class="santa" src="./image/Santa.png" alt="santa">            
+                     </div>
+
+                       <div class="follow mt-2 d-flex px-4 mb-2 position-absolute bottom-0">
+                           Follow us
+                           <span></span>
+                           <div class="icon-follow">
+                            <i class="fa-brands fa-facebook me-1"></i>
+                            <i class="fa-brands fa-twitter-square"></i>
+                          </div>
+                      </div>       
+                    </div>
+                </div>
+
+            </div>
+ 
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="content-login px-3">
+                    
+                    <div class="form me-3">
+                        <div class="titles text-center mt-3 mb-4">
+                            <h6 class="m-0 text-secondary">We keep everything</h6>
+                            <h3 class="fw-bold">Ready to SignUp</h3>
+                        </div>
+                        
+                        <div class="form-group position-relative mb-0">
+                            <div class="input-icon position-absolute end-0 me-4 mt-1 text-body-tertiary">
+                                <i class="fas fa-user mb-1 ms-1"></i>
+                            </div>
+                            <input id="un" type="text" placeholder="UserName" class="form-input form-control rounded-0 shadow-none mb-0">
+                            <p id="errorName"></p>
+                        </div>
+                        
+                        <div class="form-group position-relative mb-0">
+                            <div class="input-icon position-absolute end-0 me-4 mt-1 text-body-tertiary">
+                                <i class="fa-solid fa-envelope mb-1 ms-1"></i>
+                            </div>
+                            <input id="ue" type="email" placeholder="Email" class="form-input form-control rounded-0 shadow-none">
+                            <p id="errorEmail"></p>
+                        </div>
+                        
+                        <div class="form-group position-relative pb-1">
+                            <div class="input-icon position-absolute end-0 me-4 mt-1 text-body-tertiary">
+                                <i class="fa-solid fa-lock"></i>
+                            </div>
+                            <input id="up" type="password" name="password" placeholder="Password" class="form-control rounded-0 shadow-none">
+                            <p id="errorPassword"></p>
+                        </div>
+                        
+                        <p class="massage"></p>
+                        <p class="existing d-none">This account already exists! Please try another one.</p>
+                        
+                        <div id="btnSignUp" class="btn w-100 m-auto border-0">
+                            <a type="button" class="text-decoration-none text-white  bg-success  border-0 rounded-5 px-4 py-1" href="#">SignUp</a>
+                        </div>
+
+                        <div class="btn-signIN d-flex justify-content-center border-0">
+                            Don't have account? 
+                            <a type="button" href="./login.html">
+                                sign in
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+
+           </div>
+       </div>  
+    </div>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/signUp.js"></script>
+</body>
+</html>
+
+
+
